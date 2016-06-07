@@ -3,15 +3,15 @@
 
 ##Usage
 
-Make sure go is installed. On OSX you can use Homebrew to install it.
+This is a go program.  You must have go installed to use it. On OSX you can use Homebrew to install it.
 ```sh 
 brew install go
 ```
 
-Make sure to follow the instrauctions from Homebrew and add the proper environment variables
+Make sure to follow the instructions from Homebrew and add the proper environment variables
 https://golang.org/doc/code.html#GOPATH
 
-Download the package
+Once everything is installed, download the package using `go get`
 ```sh 
 go get "github.com/brettallred/tumblr-mock-stream"
 ```
