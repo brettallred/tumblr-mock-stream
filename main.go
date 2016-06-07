@@ -22,6 +22,8 @@ func main() {
 	}
 
 	api.SetApp(router)
+	log.Print("*- Starting Tumblr Mock Streamer")
+	log.Print("*- http://127.0.0.1:9999")
 	log.Fatal(http.ListenAndServe(":9999", api.MakeHandler()))
 }
 
